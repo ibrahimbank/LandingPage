@@ -902,8 +902,8 @@ input[placeholder="Your email address"] {
     right: 40%;
     top: 0;
     margin-top: 1rem;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 500;
   }
   .dot {
     display: none;
