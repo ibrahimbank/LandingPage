@@ -899,7 +899,7 @@ input[placeholder="Your email address"] {
   }
 
   .logo {
-    right: 40%;
+    right: 20%;
     top: 0;
     margin-top: 1rem;
     font-size: 25px;
@@ -982,7 +982,7 @@ input[placeholder="Your email address"] {
   }
   .left p {
     margin-top: 1.5rem;
-    line-height: 1rem;
+    line-height: 1.3rem;
     width: 50%;
     margin-bottom: 1rem;
   }
