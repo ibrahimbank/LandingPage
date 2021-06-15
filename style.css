@@ -4,9 +4,7 @@
   padding: 0;
 }
 
-/* body {
-  background: pink;
-} */
+/* navbar styling */
 
 .navbar {
   /* position: absolute; */
@@ -63,6 +61,8 @@ ul button {
   color: black;
 }
 
+/* layer1 styling */
+
 .layer1 {
   position: relative;
   display: flex;
@@ -84,7 +84,8 @@ ul button {
 .span {
   position: relative;
   top: 0;
-  margin-top: 0;
+  margin-top: -1.5rem;
+  margin-left: -3rem;
 }
 span:first-child {
   position: relative;
@@ -92,20 +93,23 @@ span:first-child {
 }
 
 .layer1 span:nth-child(1) {
-  font-weight: 800;
+  font-weight: 900;
   font-size: 13px;
   text-transform: uppercase;
   line-height: 1rem;
   padding-left: 1rem;
+  margin-top: -2rem;
 }
 
 span:nth-child(3) {
-  margin-left: 2.5rem;
+  margin-left: 4rem;
 }
 
 span img {
-  width: 10%;
+  width: 20%;
   margin-right: 0;
+  height: 2.2rem;
+  border-radius: 50%;
 }
 
 .left {
@@ -178,6 +182,8 @@ span img {
   height: 200px;
 }
 
+/* layer2 styling */
+
 .layer2 h2 {
   text-transform: capitalize;
 }
@@ -186,6 +192,8 @@ span img {
   text-align: center;
   line-height: 1.5rem;
 }
+
+/* layer3 styling */
 
 .layer3 {
   position: relative;
@@ -221,6 +229,8 @@ span img {
   height: 450px;
   top: 4rem;
 }
+
+/* layer4 styling */
 
 .layer4 img {
   width: 600px;
@@ -266,6 +276,8 @@ span img {
   margin-bottom: 2rem;
 }
 
+/* layer5 styling */
+
 .layer5 img {
   width: 600px;
   height: 400px;
@@ -273,6 +285,8 @@ span img {
   z-index: 5;
   left: 0;
 }
+
+/* layer6 styling */
 
 .layer6 {
   position: relative;
@@ -328,6 +342,7 @@ span img {
   font-weight: 400;
 }
 
+/* layer7 styling */
 .layer7 {
   position: relative;
   display: flex;
@@ -368,7 +383,6 @@ form {
   margin-bottom: 1rem;
   width: 15%;
   height: 2rem;
-  border-radius: 5%;
   border: 0;
   color: white;
   background: red;
@@ -383,6 +397,8 @@ form {
   width: 17rem;
   height: 1.7rem;
 }
+
+/* footer styling */
 
 footer {
   position: relative;
@@ -471,6 +487,8 @@ input[placeholder="Your email address"] {
   padding-top: 2rem;
   padding-right: 1rem;
 }
+
+/* responsive styling */
 
 @media (max-width: 1250px) {
   .right img {
@@ -790,7 +808,7 @@ input[placeholder="Your email address"] {
     margin-bottom: 1rem;
     width: 20%;
     height: 2rem;
-    border-radius: 5%;
+
     border: 0;
     color: white;
     background: red;
@@ -842,11 +860,11 @@ input[placeholder="Your email address"] {
   input[placeholder="Your email address"] {
     background: #343434;
     color: white;
-    border-radius: 4%;
+    border-radius: 10px;
     border: 1px solid dimgray;
     border: 0;
     height: 30px;
-    width: 100%;
+    width: 50vw;
     padding-left: 0.2rem;
     font-size: 10px;
   }
